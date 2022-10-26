@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  height: 800px;
+  flex-direction: column;
+  padding: 0em;
+  background-image:  url("backGround.jpg");
+  background-size: cover;
+}
+.Titulo {
+  color: black;
+  size: px;
+}
+.center {
+  text-align: center;
+}
+.left{
+  text-align: left;
+  top: 10%;
+}
+.color-red {
+  color: red;
+}
+.w-30 {
+  width: 30%;
+}
+ul {
+  overflow: hidden;
+  list-style: none;
+  display: inline-block;
+}
+nav {
+  background-color: #333;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+ul li {
+  float:right;
+}
+li a {
+  color: white;
+  display: block;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+.full-width-image {
+  min-width: 336px;
+  max-width: 100%;
+  width: 100%;
+  min-height: 280px;
+  height: 500px;
+  object-fit: cover;
+}
+.principal {
+  padding-top: 20px;
+  margin-top: 5vh;
+}   
+
+.principal_viaje_nacional {
+  margin-top: 10vh;
+  display: flex;
+}
+.principal_viaje_internacional {
+  margin-top: 10vh;
+  display: flex;
+}
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  width: 10rem;
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
