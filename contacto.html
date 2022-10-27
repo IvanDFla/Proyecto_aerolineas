@@ -8,64 +8,60 @@
     <link rel="Stylesheet" href="./Assets/Style.css">
 </head>
 <body>
-    <section>
+    <section class="center">
         <nav>
             <ul>
-                <li><a href="Info.html">INFO</a></li>
-                <li><a class="Active">CONTACTO</a></li>
-                <li><a href="Viajes.html">VIAJES</a></li>
-                <li><a href="Destinos.html">DESTINOS</a></li>  
-                <li><a href="Index.html">INICIO</a></li>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="destinos.html">DESTINOS</a></li>
+            <li><a href="viajes.html">VIAJES</a></li>
+            <li><a href="info.html">INFO</a></li>
+            <li><a class="active">CONTACTO</a></li>
             </ul>
         </nav>
-        <form action="">
+        <div class="">
+            <form action="">
 
-            <label for="fname">Nombre</label>
-            <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+                <label for="fname">Nombre</label>
+                <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
 
-            <label for="lname">Apellido</label>
-            <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+                <label for="lname">Apellido</label>
+                <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
 
-            <label for="Provincia">Provincia</label>
-            <select id="Provincia" name="Provincia">
-                <option value="CABA">Ciudad Autonoma de Buenos Aires</option>
-                <option value="Buenos Aires">Buenos Aires</option>
-                <option value="SantaFe">Santa Fe</option>
-                <option value="Cordoba">Cordoba</option>
-                <option value="Mendoza">Mendoza</option>
-                <option value="SanJuan">San Juan</option>
-                <option value="SanLuis">San Luis</option>
-                <option value="LaRioja">La Rioja</option>
-                <option value="Catamarca">Catamarca</option>
-                <option value="Tucuman">Tucuman</option>
-                <option value="Salta">Salta</option>
-                <option value="Jujuy">Jujuy</option>
-                <option value="Formosa">Formosa</option>
-                <option value="Chaco">Chaco</option>
-                <option value="Misiones">Misiones</option>
-                <option value="Corrientes">Corrientes</option>
-                <option value="EntreRios">Entre Rios</option>
-                <option value="LaPampa">La Pampa</option>
-                <option value="Neuquen">Neuquen</option>
-                <option value="RioNegro">Rio Negro</option>
-                <option value="Chubut">Chubut</option>
-                <option value="SantaCruz">Santa Cruz</option>
-                <option value="TierraDelFuego">TierraDelFuego</option>
-                <option value="Islas">Islas E Archipielagos</option>
-
-            </select>
-
-            <label for="subject">Comentarios</label>
-            <textarea id="subject" name="subject" placeholder="Deja tu comentario aqui.."
-                style="height:200px"></textarea>
-            <div class="principal__contacto__botonenviar">
-                <input type="submit" value="Enviar">
-            </div>
-
-        </form>
-
-
+                <label for="Provincia">Provincia</label>
+                <select id="Provincia" name="Provincia">
+                    <option value="CABA">Ciudad Autonoma de Buenos Aires</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="SantaFe">Santa Fe</option>
+                    <option value="Cordoba">Cordoba</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="SanJuan">San Juan</option>
+                    <option value="SanLuis">San Luis</option>
+                    <option value="LaRioja">La Rioja</option>
+                    <option value="Catamarca">Catamarca</option>
+                    <option value="Tucuman">Tucuman</option>
+                    <option value="Salta">Salta</option>
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="Formosa">Formosa</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Misiones">Misiones</option>
+                    <option value="Corrientes">Corrientes</option>
+                    <option value="EntreRios">Entre Rios</option>
+                    <option value="LaPampa">La Pampa</option>
+                    <option value="Neuquen">Neuquen</option>
+                    <option value="RioNegro">Rio Negro</option>
+                    <option value="Chubut">Chubut</option>
+                    <option value="SantaCruz">Santa Cruz</option>
+                    <option value="TierraDelFuego">TierraDelFuego</option>
+                    <option value="Islas">Islas E Archipielagos</option>
+                </select>
+                <label for="subject">Comentarios</label>
+                <textarea id="subject" name="subject" placeholder="Deja tu comentario aqui.."
+                    style="height:200px"></textarea>
+                <div class="principal_boton_viajeInt">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
     </section>
-
 </body>
 </html>
